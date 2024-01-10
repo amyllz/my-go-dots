@@ -53,12 +53,12 @@ To install kubernetes, refer to the following link:
 - Created the go-dots server, the mysql and the gobgp on Kubernetes by the [DeploymentServer.yaml](https://github.com/amyllz/my-go-dots/blob/master/docker/DeploymentServer.yaml) file. 
 
     ```
-    $ curl -OL https://raw.githubusercontent.com/nttdots/go-dots/master/docker/DeploymentServer.yaml
+    $ curl -OL https://raw.githubusercontent.com/amyllz/my-go-dots/master/docker/DeploymentServer.yaml
     ```
 - Created the go-dots client on Kubernetes by the [DeploymentClient.yaml](https://github.com/amyllz/my-go-dots/blob/master/docker/DeploymentClient.yaml) file. 
 
     ```
-    $ curl -OL https://raw.githubusercontent.com/nttdots/go-dots/master/docker/DeploymentClient.yaml
+    $ curl -OL https://raw.githubusercontent.com/amyllz/my-go-dots/master/docker/DeploymentClient.yaml
     ```
 
 # Using Docker container
