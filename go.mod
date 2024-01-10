@@ -1,4 +1,4 @@
-module github.com/amyllz/my-go-dots@latest
+module github.com/amyllz/my-go-dots
 
 go 1.18
 
