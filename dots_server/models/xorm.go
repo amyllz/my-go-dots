@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
-	"https://gitea.com/xorm/xorm"
+	"gitea.com/xorm/xorm"
 	_ "github.com/lib/pq"
 	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 	log "github.com/sirupsen/logrus"

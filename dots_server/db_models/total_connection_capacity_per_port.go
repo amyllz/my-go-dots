@@ -2,7 +2,7 @@
 package db_models
 
 import "time"
-import "https://gitea.com/xorm/xorm"
+import "gitea.com/xorm/xorm"
 
 type TotalConnectionCapacityPerPort struct {
 	Id                      int64     `xorm:"'id' pk autoincr"`

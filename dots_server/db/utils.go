@@ -4,7 +4,7 @@ import (
   "database/sql"
   "time"
 
-  "https://gitea.com/xorm/xorm"
+  "gitea.com/xorm/xorm"
   log "github.com/sirupsen/logrus"
 
   "github.com/amyllz/my-go-dots/dots_server/models"

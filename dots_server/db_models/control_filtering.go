@@ -2,7 +2,7 @@ package db_models
 
 import (
 	"time"
-	"https://gitea.com/xorm/xorm"
+	"gitea.com/xorm/xorm"
 )
 
 type ControlFiltering struct {

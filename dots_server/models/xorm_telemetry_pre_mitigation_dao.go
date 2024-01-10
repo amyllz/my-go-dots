@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
-	"https://gitea.com/xorm/xorm"
+	"gitea.com/xorm/xorm"
 	"github.com/amyllz/my-go-dots/dots_common/messages"
 	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	"github.com/amyllz/my-go-dots/dots_server/db_models/data"

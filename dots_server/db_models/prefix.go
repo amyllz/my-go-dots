@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"https://gitea.com/xorm/xorm"
+	"gitea.com/xorm/xorm"
 )
 
 const PrefixTypeIp                     = "IP"
