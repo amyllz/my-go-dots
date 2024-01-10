@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-xorm/xorm"
+	"https://gitea.com/xorm/xorm"
 )
 
 const PrefixTypeIp                     = "IP"
