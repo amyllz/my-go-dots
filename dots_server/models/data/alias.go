@@ -6,10 +6,10 @@ import (
   "net"
   log "github.com/sirupsen/logrus"
 
-  types "github.com/nttdots/go-dots/dots_common/types/data"
-  "github.com/nttdots/go-dots/dots_server/db"
-  "github.com/nttdots/go-dots/dots_server/db_models/data"
-  "github.com/nttdots/go-dots/dots_server/models"
+  types "github.com/amyllz/my-go-dots/dots_common/types/data"
+  "github.com/amyllz/my-go-dots/dots_server/db"
+  "github.com/amyllz/my-go-dots/dots_server/db_models/data"
+  "github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 type Alias struct {

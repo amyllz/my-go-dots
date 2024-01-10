@@ -5,9 +5,9 @@ import (
   "fmt"
 
   "github.com/gorilla/mux"
-  "github.com/nttdots/go-dots/dots_common/messages"
+  "github.com/amyllz/my-go-dots/dots_common/messages"
   log "github.com/sirupsen/logrus"
-  dots_config "github.com/nttdots/go-dots/dots_client/config"
+  dots_config "github.com/amyllz/my-go-dots/dots_client/config"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"gopkg.in/yaml.v2"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 )
 
 /*

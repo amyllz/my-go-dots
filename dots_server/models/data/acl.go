@@ -6,13 +6,13 @@ import (
   "errors"
 
   "https://gitea.com/xorm/xorm"
-  "github.com/nttdots/go-dots/dots_server/db"
-  "github.com/nttdots/go-dots/dots_server/db_models/data"
-  "github.com/nttdots/go-dots/dots_server/models"
-  "github.com/nttdots/go-dots/dots_common/messages"
-  "github.com/nttdots/go-dots/dots_common"
+  "github.com/amyllz/my-go-dots/dots_server/db"
+  "github.com/amyllz/my-go-dots/dots_server/db_models/data"
+  "github.com/amyllz/my-go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_common/messages"
+  "github.com/amyllz/my-go-dots/dots_common"
   log "github.com/sirupsen/logrus"
-  types "github.com/nttdots/go-dots/dots_common/types/data"
+  types "github.com/amyllz/my-go-dots/dots_common/types/data"
 )
 
 type ACL struct {

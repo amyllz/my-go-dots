@@ -3,7 +3,7 @@ package db_models_test
 import (
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 )
 
 func TestCreateFqdnParam(t *testing.T) {

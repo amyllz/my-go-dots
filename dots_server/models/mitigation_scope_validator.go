@@ -3,10 +3,10 @@ package models
 import(
 	"fmt"
 
-	"github.com/nttdots/go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
 	log "github.com/sirupsen/logrus"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 )
 
 // The mitigation scope validator interface

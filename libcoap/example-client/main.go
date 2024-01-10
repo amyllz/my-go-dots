@@ -1,6 +1,6 @@
 package main
 
-import "github.com/nttdots/go-dots/libcoap"
+import "github.com/amyllz/my-go-dots/libcoap"
 import "log"
 import "net"
 import "time"

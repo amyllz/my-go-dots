@@ -1,6 +1,6 @@
 package models
 
-import "github.com/nttdots/go-dots/dots_server/db_models"
+import "github.com/amyllz/my-go-dots/dots_server/db_models"
 
 type SetString map[string]struct{}
 

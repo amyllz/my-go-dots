@@ -33,7 +33,7 @@ spec:
               name: client-config
               key: SERVER_PORT
         command: [ "/bin/sh", "-c", "--"]
-        args: ["cp -n $GOPATH/src/github.com/nttdots/go-dots/dots_client/dots_client.yaml .;
+        args: ["cp -n $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/dots_client.yaml .;
                 $GOPATH/bin/dots_client --server $(SERVER_IP_ADDRESS) --signalChannelPort=$(SIGNAL_CHANNEL_PORT) --config dots_client.yaml -vv;"]
         ports:
         - containerPort: 4646

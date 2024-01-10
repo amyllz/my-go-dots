@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	common "github.com/nttdots/go-dots/dots_common"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	"github.com/nttdots/go-dots/libcoap"
-	"github.com/nttdots/go-dots/dots_server/controllers"
-	"github.com/nttdots/go-dots/dots_server/task"
-	"github.com/nttdots/go-dots/dots_server/models/data"
-	"github.com/nttdots/go-dots/dots_common/messages"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	"github.com/amyllz/my-go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_server/controllers"
+	"github.com/amyllz/my-go-dots/dots_server/task"
+	"github.com/amyllz/my-go-dots/dots_server/models/data"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
 )
 
 var (

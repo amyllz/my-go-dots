@@ -5,10 +5,10 @@ import (
     "reflect"
     "strings"
     "github.com/shopspring/decimal"
-    "github.com/nttdots/go-dots/libcoap"
-    "github.com/nttdots/go-dots/dots_common/messages"
+    "github.com/amyllz/my-go-dots/libcoap"
+    "github.com/amyllz/my-go-dots/dots_common/messages"
     log "github.com/sirupsen/logrus"
-    client_message "github.com/nttdots/go-dots/dots_client/messages"
+    client_message "github.com/amyllz/my-go-dots/dots_client/messages"
 )
 
 type Env struct {

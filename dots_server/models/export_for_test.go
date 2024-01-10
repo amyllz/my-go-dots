@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 )
 
 func BlockerSelection(d *LoadBaseBlockerSelection, scope *MitigationScope) (b Blocker, err error) {

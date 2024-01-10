@@ -3,7 +3,7 @@ package main
 import "encoding/json"
 import "fmt"
 import "github.com/davecgh/go-spew/spew"
-import "github.com/nttdots/go-dots/dots_common/messages/data"
+import "github.com/amyllz/my-go-dots/dots_common/messages/data"
 
 func check(s string, d interface{}) {
   err := json.Unmarshal([]byte(s), &d)

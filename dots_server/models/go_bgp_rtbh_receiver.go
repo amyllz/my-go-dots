@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"fmt"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	"github.com/osrg/gobgp/v3/pkg/packet/bgp"
 	"google.golang.org/grpc"
 	"github.com/golang/protobuf/ptypes"

@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"github.com/nttdots/go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
 )
 
 type ConfigurationParameterRange struct {

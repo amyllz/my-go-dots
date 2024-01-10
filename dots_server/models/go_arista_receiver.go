@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/aristanetworks/goeapi"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	module "github.com/aristanetworks/goeapi/module"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 	log "github.com/sirupsen/logrus"
 )
 

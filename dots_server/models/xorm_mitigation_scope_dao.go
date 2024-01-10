@@ -7,10 +7,10 @@ import (
 	"https://gitea.com/xorm/xorm"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/nttdots/go-dots/dots_server/db_models"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_common/types/data"
-	"github.com/nttdots/go-dots/dots_server/db_models/data"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_common/types/data"
+	"github.com/amyllz/my-go-dots/dots_server/db_models/data"
 )
 
 /*

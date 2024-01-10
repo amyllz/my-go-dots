@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 func assertDeepEqual(t *testing.T, msg string, actual interface{}, expected interface{}) {

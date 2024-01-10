@@ -2,7 +2,7 @@ package data_db_models
 
 import "encoding/json"
 import "time"
-import "github.com/nttdots/go-dots/dots_common/types/data"
+import "github.com/amyllz/my-go-dots/dots_common/types/data"
 
 type DataAlias data_types.Alias
 

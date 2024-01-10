@@ -1,7 +1,7 @@
 package task
 
 import "time"
-import "github.com/nttdots/go-dots/libcoap"
+import "github.com/amyllz/my-go-dots/libcoap"
 import log "github.com/sirupsen/logrus"
 import "fmt"
 

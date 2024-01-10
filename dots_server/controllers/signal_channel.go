@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/nttdots/go-dots/dots_common"	
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/libcoap"		
+	"github.com/amyllz/my-go-dots/dots_common"	
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/libcoap"		
 
 )
 

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	log "github.com/sirupsen/logrus"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	"github.com/nttdots/go-dots/dots_server/models"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 /*

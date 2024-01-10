@@ -13,15 +13,15 @@ import (
     "github.com/ugorji/go/codec"
     "github.com/shopspring/decimal"
 
-    "github.com/nttdots/go-dots/dots_common"
-    "github.com/nttdots/go-dots/dots_common/messages"
-    "github.com/nttdots/go-dots/dots_server/controllers"
-    "github.com/nttdots/go-dots/dots_server/models"
-    "github.com/nttdots/go-dots/libcoap"
-    "github.com/nttdots/go-dots/dots_server/task"
-    "github.com/nttdots/go-dots/dots_server/db_models"
+    "github.com/amyllz/my-go-dots/dots_common"
+    "github.com/amyllz/my-go-dots/dots_common/messages"
+    "github.com/amyllz/my-go-dots/dots_server/controllers"
+    "github.com/amyllz/my-go-dots/dots_server/models"
+    "github.com/amyllz/my-go-dots/libcoap"
+    "github.com/amyllz/my-go-dots/dots_server/task"
+    "github.com/amyllz/my-go-dots/dots_server/db_models"
     log "github.com/sirupsen/logrus"
-    dots_config "github.com/nttdots/go-dots/dots_server/config"
+    dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 )
 
 func createResource(ctx *libcoap.Context, path string, typ reflect.Type, controller controllers.ControllerInterface, is_unknown bool) *libcoap.Resource {

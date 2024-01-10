@@ -6,11 +6,11 @@ import (
   "time"
 
   "github.com/julienschmidt/httprouter"
-  "github.com/nttdots/go-dots/dots_server/db"
-  "github.com/nttdots/go-dots/dots_server/models"
-  "github.com/nttdots/go-dots/dots_server/models/data"
+  "github.com/amyllz/my-go-dots/dots_server/db"
+  "github.com/amyllz/my-go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_server/models/data"
   log "github.com/sirupsen/logrus"
-  messages "github.com/nttdots/go-dots/dots_common/messages/data"
+  messages "github.com/amyllz/my-go-dots/dots_common/messages/data"
 )
 
 type PostController struct {

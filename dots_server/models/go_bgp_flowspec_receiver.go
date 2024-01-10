@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"context"
 
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	log "github.com/sirupsen/logrus"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 	"github.com/osrg/gobgp/v3/pkg/packet/bgp"
 	"google.golang.org/grpc"
 	"github.com/golang/protobuf/ptypes"

@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	common "github.com/nttdots/go-dots/dots_common"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/libcoap"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/libcoap"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 )
 
 /*

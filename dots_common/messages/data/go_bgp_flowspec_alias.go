@@ -3,8 +3,8 @@ package data_messages
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/dots_server/models/data"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models/data"
 )
 
 // singleton instance

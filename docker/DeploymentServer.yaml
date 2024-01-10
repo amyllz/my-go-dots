@@ -22,11 +22,11 @@ spec:
         image: eurekaeru/go-dots:latest
         workingDir: "/dots/config"
         command: [ "/bin/sh", "-c", "--"]
-        args: ["cp -n $GOPATH/src/github.com/nttdots/go-dots/dots_server/dots_server.yaml .
-                cp -n $GOPATH/src/github.com/nttdots/go-dots/dots_server/db_models/test_dump.sql .;
-                cp -n $GOPATH/src/github.com/nttdots/go-dots/gobgp-server/gobgpd.conf .;
-                cp -n $GOPATH/src/github.com/nttdots/go-dots/mysql_udf/* /usr/lib/mysql/plugin;
-                cp -n $GOPATH/src/github.com/nttdots/go-dots/certs/* /dots/certs;
+        args: ["cp -n $GOPATH/src/github.com/amyllz/my-go-dots/dots_server/dots_server.yaml .
+                cp -n $GOPATH/src/github.com/amyllz/my-go-dots/dots_server/db_models/test_dump.sql .;
+                cp -n $GOPATH/src/github.com/amyllz/my-go-dots/gobgp-server/gobgpd.conf .;
+                cp -n $GOPATH/src/github.com/amyllz/my-go-dots/mysql_udf/* /usr/lib/mysql/plugin;
+                cp -n $GOPATH/src/github.com/amyllz/my-go-dots/certs/* /dots/certs;
                 $GOPATH/bin/dots_server --config dots_server.yaml -vv;"]
         ports:
         - containerPort: 4646

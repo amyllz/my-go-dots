@@ -4,12 +4,12 @@ import (
 	"time"
 	"encoding/json"
 	"https://gitea.com/xorm/xorm"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	log "github.com/sirupsen/logrus"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
-	db_models_data "github.com/nttdots/go-dots/dots_server/db_models/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
+	db_models_data "github.com/amyllz/my-go-dots/dots_server/db_models/data"
 )
 
 var DefaultTsid = -1

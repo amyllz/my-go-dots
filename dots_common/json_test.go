@@ -2,7 +2,7 @@ package dots_common_test
 
 import (
 	"testing"
-	"github.com/nttdots/go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/dots_common"
 )
 
 func Test_JSON(t *testing.T) {

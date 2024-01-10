@@ -7,10 +7,10 @@ import (
   "github.com/julienschmidt/httprouter"
   log "github.com/sirupsen/logrus"
 
-  messages "github.com/nttdots/go-dots/dots_common/messages/data"
-  "github.com/nttdots/go-dots/dots_server/db"
-  "github.com/nttdots/go-dots/dots_server/models"
-  "github.com/nttdots/go-dots/dots_server/models/data"
+  messages "github.com/amyllz/my-go-dots/dots_common/messages/data"
+  "github.com/amyllz/my-go-dots/dots_server/db"
+  "github.com/amyllz/my-go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_server/models/data"
   "time"
 )
 

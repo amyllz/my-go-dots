@@ -2,7 +2,7 @@ package task
 
 import (
     "time"
-    "github.com/nttdots/go-dots/libcoap"
+    "github.com/amyllz/my-go-dots/libcoap"
     log "github.com/sirupsen/logrus"
 )
 

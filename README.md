@@ -2,7 +2,7 @@
 
 # go-dots
 
-![logo](https://github.com/nttdots/go-dots/blob/master/go-dots_logo/go-dots_logo_blue.png)
+![logo](https://github.com/amyllz/my-go-dots/blob/master/go-dots_logo/go-dots_logo_blue.png)
 
 "go-dots" is a DDoS Open Threat Signaling (dots) implementation written in Go. This implmentation is based on the Internet drafts below. 
 
@@ -65,7 +65,7 @@ To build libcoap for go-dots. We will work as follow:
 ### Install go-dots
 To install go-dots source codes and command line programs, use the following command:
 
-    $ git clone https://github.com/nttdots/go-dots.git
+    $ git clone https://github.com/amyllz/my-go-dots.git
     $ cd go-dots
     $ go mod download
     $ make && make install
@@ -86,7 +86,7 @@ To explain the relationships between each daemons in detail, here we illustrates
 
 The figure below shows the detailed sequence diagram which depicts how a dots_server handles a mitigation request. 
 
-<img src='https://github.com/nttdots/go-dots/blob/documentation/docs/pics/mitigation_request_sequence.png' title='mitigation requests sequence diagram'>
+<img src='https://github.com/amyllz/my-go-dots/blob/documentation/docs/pics/mitigation_request_sequence.png' title='mitigation requests sequence diagram'>
 
 Upon receiving CoAP messages, a dots_server first find the appropriate message controller for the received message. The message controller first find the customer information bound with the common name field contained in the client certificate. The customer information is configured and stored in the RDB before the server is started. To setup databases, refer to [Setting up databases](./docs/DATABASE.md). If no appropriate customer objets is found, the dots_server decline the received request. 
 

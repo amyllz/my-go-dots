@@ -7,8 +7,8 @@ import (
 	"os"
 	"encoding/json"
 	"github.com/ugorji/go/codec"
-	"github.com/nttdots/go-dots/libcoap"
-	"github.com/nttdots/go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common"
 )
 
 

@@ -4,9 +4,9 @@ import (
   "errors"
 
   log "github.com/sirupsen/logrus"
-  types "github.com/nttdots/go-dots/dots_common/types/data"
-  "github.com/nttdots/go-dots/dots_server/models"
-  "github.com/nttdots/go-dots/dots_common/messages"
+  types "github.com/amyllz/my-go-dots/dots_common/types/data"
+  "github.com/amyllz/my-go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_common/messages"
 )
 
 type PostRequest struct {

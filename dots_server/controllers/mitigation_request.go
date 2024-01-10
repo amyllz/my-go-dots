@@ -9,16 +9,16 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/dots_server/models/data"
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models/data"
+	"github.com/amyllz/my-go-dots/libcoap"
 
 	log "github.com/sirupsen/logrus"
-	common "github.com/nttdots/go-dots/dots_common"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	data_controllers "github.com/nttdots/go-dots/dots_server/controllers/data"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	data_controllers "github.com/amyllz/my-go-dots/dots_server/controllers/data"
 )
 
 /*

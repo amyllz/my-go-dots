@@ -11,7 +11,7 @@ import "strings"
 import "strconv"
 import "github.com/shopspring/decimal"
 import "math"
-import dots_config "github.com/nttdots/go-dots/dots_server/config"
+import dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 
 type Session struct {
     ptr *C.coap_session_t

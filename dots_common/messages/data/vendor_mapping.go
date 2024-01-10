@@ -3,8 +3,8 @@ package data_messages
 import (
 	"fmt"
 	"strconv"
-	"github.com/nttdots/go-dots/dots_server/models"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 )
 
 type VendorMappingRequest struct {

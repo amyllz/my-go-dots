@@ -7,8 +7,8 @@ import (
 
 	"fmt"
 	"https://gitea.com/xorm/xorm"
-	"github.com/nttdots/go-dots/dots_server/db_models"
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 var testBlockerBase models.BlockerBase

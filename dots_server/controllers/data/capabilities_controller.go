@@ -4,11 +4,11 @@ import (
   "net/http"
   "github.com/julienschmidt/httprouter"
 
-  "github.com/nttdots/go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_server/models"
   log "github.com/sirupsen/logrus"
-  types "github.com/nttdots/go-dots/dots_common/types/data"
-  messages "github.com/nttdots/go-dots/dots_common/messages/data"
-  dots_config "github.com/nttdots/go-dots/dots_server/config"
+  types "github.com/amyllz/my-go-dots/dots_common/types/data"
+  messages "github.com/amyllz/my-go-dots/dots_common/messages/data"
+  dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 )
 
 type CapabilitiesController struct {

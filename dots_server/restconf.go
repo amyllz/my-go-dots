@@ -11,7 +11,7 @@ import (
   "strconv"
 
   log "github.com/sirupsen/logrus"
-  "github.com/nttdots/go-dots/dots_server/router"
+  "github.com/amyllz/my-go-dots/dots_server/router"
 )
 
 func listenData(address string, port uint16, caFile string, certFile string, keyFile string) error {

@@ -7,7 +7,7 @@ import (
   "https://gitea.com/xorm/xorm"
   log "github.com/sirupsen/logrus"
 
-  "github.com/nttdots/go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 type Tx struct {

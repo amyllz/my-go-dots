@@ -3,10 +3,10 @@ package controllers_test
 import (
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_common"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/controllers"
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/controllers"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 func TestMitigationRequestPut(t *testing.T) {

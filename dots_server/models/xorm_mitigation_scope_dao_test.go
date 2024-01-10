@@ -3,8 +3,8 @@ package models_test
 import (
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_server/db_models"
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 var testMitigationScope models.MitigationScope

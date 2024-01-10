@@ -2,8 +2,8 @@ package data_models
 
 import (
 	"time"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/dots_server/db"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/db"
 	log "github.com/sirupsen/logrus"
 )
 /*

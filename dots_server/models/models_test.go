@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"testing"
 
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	"github.com/nttdots/go-dots/dots_server/models"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 	log "github.com/sirupsen/logrus"
 )
 

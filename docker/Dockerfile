@@ -37,7 +37,7 @@ RUN ldconfig
 
 # install go-dots
 WORKDIR $HOME
-RUN go get -u github.com/nttdots/go-dots/...
-WORKDIR $GOPATH/src/github.com/nttdots/go-dots/
+RUN go get -u github.com/amyllz/my-go-dots/...
+WORKDIR $GOPATH/src/github.com/amyllz/my-go-dots/
 RUN make && make install
 

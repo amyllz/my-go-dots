@@ -3,9 +3,9 @@ package models
 import (
 	"fmt"
 	"errors"
-	"github.com/nttdots/go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
 	log "github.com/sirupsen/logrus"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
 )
 
 type TelemetryPreMitigation struct {

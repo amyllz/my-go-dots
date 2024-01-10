@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 	"github.com/shopspring/decimal"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/db_models"
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 	log "github.com/sirupsen/logrus"
-	common "github.com/nttdots/go-dots/dots_common"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	data_controllers "github.com/nttdots/go-dots/dots_server/controllers/data"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	data_controllers "github.com/amyllz/my-go-dots/dots_server/controllers/data"
 )
 
 /*

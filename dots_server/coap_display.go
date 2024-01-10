@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/libcoap"
 )
 
 /*

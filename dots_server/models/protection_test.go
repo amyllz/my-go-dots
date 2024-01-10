@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 func TestProtections_toProtectionParameters_RTBH(t *testing.T) {

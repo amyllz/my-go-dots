@@ -11,14 +11,14 @@ import (
 	"strconv"
 
 	"github.com/ugorji/go/codec"
-	"github.com/nttdots/go-dots/dots_common"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_client/task"
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_client/task"
+	"github.com/amyllz/my-go-dots/libcoap"
 	"github.com/shopspring/decimal"
 	log "github.com/sirupsen/logrus"
-	dots_config "github.com/nttdots/go-dots/dots_client/config"
-	client_message "github.com/nttdots/go-dots/dots_client/messages"
+	dots_config "github.com/amyllz/my-go-dots/dots_client/config"
+	client_message "github.com/amyllz/my-go-dots/dots_client/messages"
 )
 
 type RequestInterface interface {

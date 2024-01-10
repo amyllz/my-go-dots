@@ -1,6 +1,6 @@
 package models
 
-import "github.com/nttdots/go-dots/dots_common/messages"
+import "github.com/amyllz/my-go-dots/dots_common/messages"
 import "strconv"
 
 type MessageEntity interface{}

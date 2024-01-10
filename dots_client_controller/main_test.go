@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_client_controller"
+	"github.com/amyllz/my-go-dots/dots_client_controller"
 )
 
 func TestReadJsonFile(t *testing.T) {

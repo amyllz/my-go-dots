@@ -2,8 +2,8 @@ package models
 
 import (
 	"fmt"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 	log "github.com/sirupsen/logrus"
 )
 

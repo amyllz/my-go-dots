@@ -3,7 +3,7 @@ package dots_common
 import (
     "math/rand"
 
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/libcoap"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,9 +1,9 @@
 package data_models
 
 import (
-  "github.com/nttdots/go-dots/dots_server/db"
-  "github.com/nttdots/go-dots/dots_server/models"
-  "github.com/nttdots/go-dots/dots_server/db_models/data"
+  "github.com/amyllz/my-go-dots/dots_server/db"
+  "github.com/amyllz/my-go-dots/dots_server/models"
+  "github.com/amyllz/my-go-dots/dots_server/db_models/data"
   log "github.com/sirupsen/logrus"
 )
 

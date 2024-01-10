@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/nttdots/go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 func TestNewPrefix(t *testing.T) {

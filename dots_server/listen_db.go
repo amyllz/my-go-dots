@@ -10,16 +10,16 @@ import (
 	"strings"
 	"encoding/json"
 
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/dots_server/models/data"
-	"github.com/nttdots/go-dots/libcoap"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/controllers"
-	"github.com/nttdots/go-dots/dots_common/types/data"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models/data"
+	"github.com/amyllz/my-go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/controllers"
+	"github.com/amyllz/my-go-dots/dots_common/types/data"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	log "github.com/sirupsen/logrus"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
-	data_controllers "github.com/nttdots/go-dots/dots_server/controllers/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
+	data_controllers "github.com/amyllz/my-go-dots/dots_server/controllers/data"
 )
 
 type TableName string

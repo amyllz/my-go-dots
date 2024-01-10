@@ -6,13 +6,13 @@ import (
 	"net/http"
   
 	"github.com/julienschmidt/httprouter"
-	"github.com/nttdots/go-dots/dots_server/db"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/dots_server/models/data"
-	"github.com/nttdots/go-dots/dots_server/db_models/data"
+	"github.com/amyllz/my-go-dots/dots_server/db"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/dots_server/models/data"
+	"github.com/amyllz/my-go-dots/dots_server/db_models/data"
 	log "github.com/sirupsen/logrus"
-	types    "github.com/nttdots/go-dots/dots_common/types/data"
-	messages "github.com/nttdots/go-dots/dots_common/messages/data"
+	types    "github.com/amyllz/my-go-dots/dots_common/types/data"
+	messages "github.com/amyllz/my-go-dots/dots_common/messages/data"
   )
 
 type VendorMappingController struct {}

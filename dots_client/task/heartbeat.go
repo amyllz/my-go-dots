@@ -2,8 +2,8 @@ package task
 
 import (
     "time"
-    "github.com/nttdots/go-dots/libcoap"
-    "github.com/nttdots/go-dots/dots_common/messages"
+    "github.com/amyllz/my-go-dots/libcoap"
+    "github.com/amyllz/my-go-dots/dots_common/messages"
     log "github.com/sirupsen/logrus"
 )
 

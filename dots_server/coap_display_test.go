@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/nttdots/go-dots/libcoap"
-	"github.com/nttdots/go-dots/dots_server"
+	"github.com/amyllz/my-go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_server"
 )
 
 func TestCoapHeaderDisplay(t *testing.T) {

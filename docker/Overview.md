@@ -50,12 +50,12 @@ To install kubernetes, refer to the following link:
     $ minikube mount ~/dots:/dots
     ```
 
-- Created the go-dots server, the mysql and the gobgp on Kubernetes by the [DeploymentServer.yaml](https://github.com/nttdots/go-dots/blob/master/docker/DeploymentServer.yaml) file. 
+- Created the go-dots server, the mysql and the gobgp on Kubernetes by the [DeploymentServer.yaml](https://github.com/amyllz/my-go-dots/blob/master/docker/DeploymentServer.yaml) file. 
 
     ```
     $ curl -OL https://raw.githubusercontent.com/nttdots/go-dots/master/docker/DeploymentServer.yaml
     ```
-- Created the go-dots client on Kubernetes by the [DeploymentClient.yaml](https://github.com/nttdots/go-dots/blob/master/docker/DeploymentClient.yaml) file. 
+- Created the go-dots client on Kubernetes by the [DeploymentClient.yaml](https://github.com/amyllz/my-go-dots/blob/master/docker/DeploymentClient.yaml) file. 
 
     ```
     $ curl -OL https://raw.githubusercontent.com/nttdots/go-dots/master/docker/DeploymentClient.yaml
@@ -139,13 +139,13 @@ The primary purpose of the signal channel is for a DOTS client to ask a DOTS ser
 
     $ $GOPATH/bin/dots_client_controller -request mitigation_request -method Put \
      -cuid=dz6pHjaADkaFTbjr0JGBpw -mid=123 \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleMitigationRequestDraft.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleMitigationRequestDraft.json
 
 In order to handle out-of-order delivery of mitigation requests, 'mid' values MUST increase monotonically. Besides, if the 'mid' value has exceeded 3/4 of (2**32 - 1), it should be reset by sending a mitigation request with 'mid' is set to '0' to avoid 'mid' rollover. However, the reset request is only accepted by DOTS server at peace-time (have no any active mitigation request which is maintaining).
 
     $ $GOPATH/bin/dots_client_controller -request mitigation_request -method Put \
      -cuid=dz6pHjaADkaFTbjr0JGBpw -mid=0 \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleMitigationRequestDraft.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleMitigationRequestDraft.json
 
 ### Client Controller [mitigation_retrieve_all]
 
@@ -186,13 +186,13 @@ A DOTS client can convey the 'If-Match' option with empty value in the PUT reque
 
     $ $GOPATH/bin/dots_client_controller -request mitigation_request -method Put \
      -cuid=dz6pHjaADkaFTbjr0JGBpw -mid=123 -ifMatch="" \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleMitigationRequestDraftEfficacyUpdate.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleMitigationRequestDraftEfficacyUpdate.json
 
 ### Client Controller [session_configuration_request]
 
     $ $GOPATH/bin/dots_client_controller -request session_configuration -method Put \
      -sid 234 \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleSessionConfigurationDraft.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleSessionConfigurationDraft.json
 
 In order to handle out-of-order delivery of session configuration, 'sid' values MUST increase monotonically.
 
@@ -218,18 +218,18 @@ Dots_client uses 'idle-config' parameter set by default. It can be configured to
 Configure dots_client to use 'idle-config' parameters
 
     $ $GOPATH/bin/dots_client_controller -request client_configuration -method POST \
-    -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleClientConfigurationRequest_Idle.json
+    -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleClientConfigurationRequest_Idle.json
 
 Configure dots_client to use 'mitigating-config' parameters
 
     $ $GOPATH/bin/dots_client_controller -request client_configuration -method POST \
-    -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleClientConfigurationRequest_Mitigating.json
+    -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleClientConfigurationRequest_Mitigating.json
 
 ##  Data Channel
 The primary purpose of the data channel is to support DOTS related configuration and policy information exchange between the DOTS client and the DOTS server.
 
 All shell-script and sample json files are located in below directory:
-    $ cd $GOPATH/src/github.com/nttdots/go-dots/dots_client/data/
+    $ cd $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/data/
 
 ### Get Root Resource Path
 
@@ -358,7 +358,7 @@ Therefore, when DOTS client is under attacked by DDoS, the DOTS client can use D
 
     $ $GOPATH/bin/dots_client_controller -request mitigation_request -method Put \
      -cuid=dz6pHjaADkaFTbjr0JGBpw -mid=123 \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleMitigationRequestDraftControlFiltering.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleMitigationRequestDraftControlFiltering.json
 
 ## Signal Channel Call Home
 The DOTS signal channel Call Home identify the source to block DDoS attack traffic closer to the source(s) of a DDoS attack.
@@ -368,7 +368,7 @@ when the DOTS client is under attacked by DDoS, the DOTS client sends the attack
 
     $ $GOPATH/bin/dots_client_controller -request mitigation_request -method Put \
      -cuid=dz6pHjaADkaFTbjr0JGBpw -mid=123 \
-     -json $GOPATH/src/github.com/nttdots/go-dots/dots_client/sampleMitigationRequestDraftCallHome.json
+     -json $GOPATH/src/github.com/amyllz/my-go-dots/dots_client/sampleMitigationRequestDraftCallHome.json
 
 
 # Certificate Configuration

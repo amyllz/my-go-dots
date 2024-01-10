@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 	"errors"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	log "github.com/sirupsen/logrus"
-	types "github.com/nttdots/go-dots/dots_common/types/data"
-	dots_config "github.com/nttdots/go-dots/dots_server/config"
+	types "github.com/amyllz/my-go-dots/dots_common/types/data"
+	dots_config "github.com/amyllz/my-go-dots/dots_server/config"
 )
 
 type TelemetrySetUpConfiguration struct {

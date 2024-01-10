@@ -2,10 +2,10 @@ package task
 
 import (
 	"time"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/controllers"
-	"github.com/nttdots/go-dots/dots_server/models"
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/controllers"
+	"github.com/amyllz/my-go-dots/dots_server/models"
+	"github.com/amyllz/my-go-dots/libcoap"
 	log "github.com/sirupsen/logrus"
 )
 

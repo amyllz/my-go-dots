@@ -4,10 +4,10 @@ import (
 	"testing"
 	"github.com/shopspring/decimal"
 
-	common "github.com/nttdots/go-dots/dots_common"
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_server/controllers"
-	"github.com/nttdots/go-dots/dots_server/models"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_server/controllers"
+	"github.com/amyllz/my-go-dots/dots_server/models"
 )
 
 func TestSessionConfiguration_Put(t *testing.T) {

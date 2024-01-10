@@ -3,7 +3,7 @@ package messages
 import (
 	"fmt"
 	"github.com/shopspring/decimal"
-	config "github.com/nttdots/go-dots/dots_server/config"
+	config "github.com/amyllz/my-go-dots/dots_server/config"
 )
 
 type MitigationResponse struct {

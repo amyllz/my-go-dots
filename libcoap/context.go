@@ -14,7 +14,7 @@ import "errors"
 import "crypto/x509"
 import "io/ioutil"
 import "encoding/pem"
-import "github.com/nttdots/go-dots/dots_client/config"
+import "github.com/amyllz/my-go-dots/dots_client/config"
 import log "github.com/sirupsen/logrus"
 import cache "github.com/patrickmn/go-cache"
 

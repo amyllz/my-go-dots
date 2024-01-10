@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"https://gitea.com/xorm/xorm"
-	"github.com/nttdots/go-dots/dots_server/db_models"
+	"github.com/amyllz/my-go-dots/dots_server/db_models"
 	log "github.com/sirupsen/logrus"
 )
 

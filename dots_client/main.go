@@ -19,14 +19,14 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/ugorji/go/codec"
 
-	"github.com/nttdots/go-dots/dots_common/messages"
-	"github.com/nttdots/go-dots/dots_client/task"
-	"github.com/nttdots/go-dots/libcoap"
+	"github.com/amyllz/my-go-dots/dots_common/messages"
+	"github.com/amyllz/my-go-dots/dots_client/task"
+	"github.com/amyllz/my-go-dots/libcoap"
 	log "github.com/sirupsen/logrus"
-	common "github.com/nttdots/go-dots/dots_common"
-	dots_config "github.com/nttdots/go-dots/dots_client/config"
-	client_message "github.com/nttdots/go-dots/dots_client/messages"
-	restful_router "github.com/nttdots/go-dots/dots_client/router"
+	common "github.com/amyllz/my-go-dots/dots_common"
+	dots_config "github.com/amyllz/my-go-dots/dots_client/config"
+	client_message "github.com/amyllz/my-go-dots/dots_client/messages"
+	restful_router "github.com/amyllz/my-go-dots/dots_client/router"
 )
 
 const (
@@ -414,7 +414,7 @@ func connectionStateChange(_ net.Conn, connState http.ConnState) {
 func getDefaultCertPath(path string) string {
 	packageRootPath := path + "/../"
 	if goPath := os.Getenv("GOPATH"); goPath != "" {
-		packageRootPath = goPath + "/src/github.com/nttdots/go-dots/"
+		packageRootPath = goPath + "/src/github.com/amyllz/my-go-dots/"
 	}
 
 	log.WithField("root", packageRootPath).Debug("-- getDefaultCertPath")
