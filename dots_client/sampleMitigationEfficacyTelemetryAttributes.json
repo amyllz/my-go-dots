@@ -1,0 +1,36 @@
+{
+    "ietf-dots-signal-channel:mitigation-scope":{
+        "scope":[
+            {
+                "target-prefix":[
+                    "1.1.2.12/32"
+                ],
+                "target-port-range":[
+                    {
+                        "lower-port":80
+                    }
+                ],
+                "target-protocol":[
+                    6
+                ],
+                "lifetime":500,
+                "attack-status":1,
+                "ietf-dots-telemetry:total-attack-traffic":[
+                    {
+                        "unit":3,
+                        "mid-percentile-g":900
+                    }
+                ],
+                "ietf-dots-telemetry:attack-detail":[
+                    {
+                        "vendor-id":345,
+                        "attack-id":1,
+                        "source-count":{
+                            "peak-g":10000
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

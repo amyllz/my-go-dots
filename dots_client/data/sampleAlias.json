@@ -1,0 +1,20 @@
+{
+    "ietf-dots-data-channel:aliases":{
+       "alias":[
+          {
+             "name":"https1",
+             "target-protocol":[
+                6
+             ],
+             "target-prefix":[
+                "1.1.2.0/24"
+             ],
+             "target-port-range":[
+                {
+                   "lower-port":443
+                }
+             ]
+          }
+       ]
+    }
+ }
