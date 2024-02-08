@@ -3,7 +3,7 @@ package db_models
 import (
 	"time"
 
-	"gitea.com/xorm/xorm"
+	"github.com/go-xorm/xorm"
 )
 
 const ParameterValueTypeFqdn = "FQDN"

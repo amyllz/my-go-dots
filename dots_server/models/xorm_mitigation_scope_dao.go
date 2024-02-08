@@ -4,7 +4,7 @@ import (
 	"time"
 	"errors"
 	"strconv"
-	"gitea.com/xorm/xorm"
+	"github.com/go-xorm/xorm"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/amyllz/my-go-dots/dots_server/db_models"

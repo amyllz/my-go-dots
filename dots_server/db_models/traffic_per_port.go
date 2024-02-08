@@ -1,7 +1,7 @@
 package db_models
 
 import "time"
-import "gitea.com/xorm/xorm"
+import "github.com/go-xorm/xorm"
 
 type TrafficPerPort struct {
 	Id              int64     `xorm:"'id' pk autoincr"`

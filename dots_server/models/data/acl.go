@@ -5,7 +5,7 @@ import (
   "time"
   "errors"
 
-  "gitea.com/xorm/xorm"
+  "github.com/go-xorm/xorm"
   "github.com/amyllz/my-go-dots/dots_server/db"
   "github.com/amyllz/my-go-dots/dots_server/db_models/data"
   "github.com/amyllz/my-go-dots/dots_server/models"
