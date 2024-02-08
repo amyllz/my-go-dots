@@ -28,7 +28,7 @@ RUN echo '/usr/local/lib' >> /etc/ld.so.conf
 
 # install libcoap
 WORKDIR $HOME
-RUN git clone https://gitea.com/obgm/libcoap.git
+RUN git clone https://github.com/obgm/libcoap.git
 WORKDIR $HOME/libcoap
 RUN git checkout 1365dea39a6129a9b7e8c579537e12ffef1558f6
 RUN ./autogen.sh
